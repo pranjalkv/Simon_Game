@@ -1,0 +1,119 @@
+body
+{
+    background-color: gray
+}
+h1
+{
+    font-size: 3rem;
+    text-align: center;
+}
+#hg_score
+{
+  position: absolute;
+  top:0;
+  width: 200px;
+  left: 50%;
+    margin: 10px 0px 0px -80px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color:#ffffff
+}
+.btn
+{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-width: 8px;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+  border-color: rgb(0, 0, 0);
+  z-index: -1;
+}
+#red
+{
+  border-radius: 0 250px 0 0;
+  background: darkred;
+  margin: -200px 0px 0px 0px;
+  
+}
+#yellow
+{
+    position: absolute;
+  border-radius: 0 0 0 250px;
+  background: goldenrod;
+  margin: 0px -200px 0px -200px;
+
+}
+#blue
+{
+    position: absolute;
+  border-radius: 0 0 250px 0;
+  background: darkblue;
+  margin: 0px 0px -200px 0px;
+
+}
+#green
+{
+     position: absolute;
+  border-radius: 250px 0 0 0;
+  background: darkgreen;
+  margin: -200px 0px 0px -200px;
+}
+#turn {
+  position: absolute;
+  background: #330000;
+  color: rgb(252, 252, 252);
+  font-family: courier;
+  font-size: 20px;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  top:55%;
+  left:50%;
+  margin: 0 0 0 -50px;
+  border-radius: 10%;
+}
+.controls
+{
+  background-color: rgb(202, 202, 202);;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+position: absolute;
+  top: 50%;
+  left: 50%;
+   margin: -100px 0px 0px -100px;
+  box-sizing: border-box;
+  border: 10px solid black
+}
+#switches
+{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 40%;
+  font-size: 1rem;
+}
+#start
+{
+  background-color: rgb(221, 122, 122);
+  border-radius: 10%;
+}
+#info
+{
+  position: absolute;
+  bottom: 2%;
+  left: 30%
+}
+.noclick
+{
+    pointer-events: none;
+}
+.gameover
+{
+    background-color: rgb(214, 40, 49);
+}
